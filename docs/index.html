@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="meuestilo.css">
+    <title>Formulário Web</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <form id="myForm">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome">
+            </div>
+            <div class="form-group">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" class="form-control" id="nome" name="nome">
+            </div>
+
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <input type="number" class="form-control" id="idade" name="idade">
+            </div>
+
+            <div class="form-group">
+                <label for="idadefutura">idade que terá ano que vem:</label>
+                <input type="number" class="form-control" id="idade" name="idade">
+            </div>
+
+            <div class="form-group">
+                <label for="radioOpcoes">Escolha uma opção do que fazer em 3 seg:</label>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="opcao1" name="opcao" value="Opção 1">
+                    <label class="form-check-label" for="opcao1">Jogar</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="opcao2" name="opcao" value="Opção 2">
+                    <label class="form-check-label" for="opcao2">Ler</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="opcao3" name="opcao" value="Opção 3">
+                    <label class="form-check-label" for="opcao3">Escrever</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="checkboxOpcoes">Selecione seus animais fav:</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox1" name="checkbox[]" value="Opção A">
+                    <label class="form-check-label" for="checkbox1">Macaco</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox2" name="checkbox[]" value="Opção B">
+                    <label class="form-check-label" for="checkbox2">Baleia</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox3" name="checkbox[]" value="Opção C">
+                    <label class="form-check-label" for="checkbox3">Formiga</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox4" name="checkbox[]" value="Opção D">
+                    <label class="form-check-label" for="checkbox4">Lesma</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox5" name="checkbox[]" value="Opção E">
+                    <label class="form-check-label" for="checkbox5">Kangoroo</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
